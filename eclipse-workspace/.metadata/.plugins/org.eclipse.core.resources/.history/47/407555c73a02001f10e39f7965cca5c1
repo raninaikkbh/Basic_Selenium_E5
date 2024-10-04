@@ -1,0 +1,33 @@
+package Tests;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.annotations.Test;
+
+import Pages.EditProfilePage;
+import io.appium.java_client.android.AndroidDriver;
+
+public class EditProfileTest extends BaseClass
+
+{
+
+	private static final Logger logger = LogManager.getLogger(LogOutTest.class);
+
+	@Test
+	    public void createStore() throws InterruptedException {
+		 
+	       logger.info("Starting Edit profile test...");
+	        
+	       AndroidDriver driver = getDriver();
+	       
+	       EditProfilePage edit = new EditProfilePage(driver);
+	       
+	       edit.editProfile();
+	       edit.NickName();
+	       edit.saveProfileBtn();
+	              
+	        logger.info("Edit Profile test completed.");
+
+	        
+}
+}

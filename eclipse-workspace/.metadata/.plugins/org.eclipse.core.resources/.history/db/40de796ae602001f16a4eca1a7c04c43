@@ -1,0 +1,35 @@
+package Tests;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.annotations.Test;
+
+import Pages.createStorePage;
+import io.appium.java_client.android.AndroidDriver;
+
+public class createStoreTest extends BaseClass {
+
+	private static final Logger logger = LogManager.getLogger(createStoreTest.class);
+
+	@Test
+	    public void createStore() throws InterruptedException {
+		 
+	       logger.info("Starting create/Edit store test...");
+	        
+	       AndroidDriver driver = getDriver();
+	       
+	       createStorePage store = new createStorePage(driver);
+	        
+	       //store.backArrow();
+	       store.HomePage();
+	       store.SignUpIcon();
+	       store.CreateStoreBtn();
+	       store.StoreName();
+	       store.createdStore();
+	       store.MystoreEdit();
+	       store.Description();
+	      	        
+	        logger.info("create/Edit store test completed.");
+
+}
+}

@@ -1,0 +1,248 @@
+2024-04-23 15:02:00,047 [main] INFO  Tests.BaseClass - Configuring Appium...
+2024-04-23 15:02:00,075 [main] INFO  Tests.BaseClass - Setting up Appium server...
+2024-04-23 15:02:02,128 [main] INFO  Tests.BaseClass - Creating capabilities...
+2024-04-23 15:02:02,166 [main] INFO  Tests.BaseClass - Creating AndroidDriver...
+2024-04-23 15:02:15,587 [main] INFO  Tests.BaseClass - Appium configuration complete.
+2024-04-23 15:02:15,677 [main] INFO  Tests.signUpLoginTest - Starting sign up test...
+2024-04-23 15:02:17,141 [main] INFO  Pages.SignupLoginPage - Clicked on Skip button.
+
+2024-04-25 15:09:05,535 [main] INFO  Tests.BaseClass - Configuring Appium...
+2024-04-25 15:09:05,565 [main] INFO  Tests.BaseClass - Setting up Appium server...
+2024-04-25 15:09:07,563 [main] INFO  Tests.BaseClass - Creating capabilities...
+2024-04-25 15:09:07,591 [main] INFO  Tests.BaseClass - Creating AndroidDriver...
+2024-04-25 15:09:19,797 [main] INFO  Tests.BaseClass - Appium configuration complete.
+2024-04-25 15:09:19,927 [main] INFO  Tests.signUpLoginTest - Starting sign up test...
+2024-04-25 15:09:21,588 [main] INFO  Pages.SignupLoginPage - Clicked on Skip button.
+2024-04-25 15:09:28,124 [main] INFO  Pages.SignupLoginPage - Clicked on Home button.
+2024-04-25 15:09:28,907 [main] INFO  Pages.SignupLoginPage - Clicked on Sign Up icon.
+2024-04-25 15:09:35,867 [main] INFO  Pages.SignupLoginPage - Clicked on Login/Register button.
+2024-04-25 15:09:37,005 [main] INFO  Pages.SignupLoginPage - Clicked on Privacy checkbox.
+2024-04-25 15:09:38,852 [main] INFO  Pages.SignupLoginPage - Clicked on Connect with Google button.
+2024-04-25 15:09:46,752 [main] INFO  Pages.SignupLoginPage - Clicked on Choose Email button.
+2024-04-25 15:09:49,752 [main] INFO  Tests.signUpLoginTest - Sign up test completed.
+2024-04-25 15:09:49,765 [main] INFO  Tests.createStoreTest - Starting create/Edit store test...
+2024-04-25 15:10:01,899 [main] INFO  Pages.LogOutPage - Clicked on Edit
+2024-04-25 15:10:03,853 [main] INFO  Pages.LogOutPage - Clear discription
+2024-04-25 15:10:05,228 [main] INFO  Pages.LogOutPage - write the sore discription
+2024-04-25 15:10:09,138 [main] INFO  Pages.LogOutPage - clicked on store theme color
+2024-04-25 15:10:11,181 [main] INFO  Pages.LogOutPage - clicked on save button
+2024-04-25 15:10:11,181 [main] INFO  Tests.createStoreTest - create/Edit store test completed.
+2024-04-25 15:10:11,185 [main] INFO  Tests.EditProfileTest - Starting Edit profile test...
+2024-04-25 15:10:16,693 [main] INFO  Pages.EditProfilePage - Clicked on back arrow button.
+2024-04-25 15:10:19,729 [main] INFO  Pages.EditProfilePage - Enter Nick Name
+2024-04-25 15:10:20,485 [main] INFO  Pages.EditProfilePage - Clicked on save profile button
+2024-04-25 15:10:20,486 [main] INFO  Tests.EditProfileTest - Edit Profile test completed.
+2024-04-25 15:10:20,494 [main] INFO  Tests.AllTest - Starting search test...
+2024-04-25 15:10:26,351 [main] INFO  Pages.searchPage - Clicked on back arrow button.
+2024-04-25 15:10:29,124 [main] INFO  Pages.searchPage - Clicked on search option.
+2024-04-25 15:10:37,760 [main] INFO  Pages.searchPage - Searched for 'selenium' and clicked on the result.
+2024-04-25 15:11:01,688 [main] INFO  Pages.searchPage - Clicked on Install button and granted permissions for the app installation.
+2024-04-25 15:11:16,717 [main] INFO  Pages.searchPage - Open button is present. Skipping opening the app.
+2024-04-25 15:11:22,717 [main] INFO  Tests.AllTest - Search test completed.
+2024-04-25 15:11:22,741 [main] INFO  Tests.AllTest - Starting store test...
+2024-04-25 15:11:22,748 [main] INFO  Pages.StoresPage - Clicking on the store option.
+2024-04-25 15:11:22,951 [main] INFO  Pages.StoresPage - Clicked on the store option successfully.
+2024-04-25 15:11:22,953 [main] INFO  Pages.StoresPage - Selecting a product from Samsung.
+2024-04-25 15:11:48,813 [main] INFO  Pages.StoresPage - Product from Samsung selected successfully.
+2024-04-25 15:11:48,813 [main] INFO  Pages.StoresPage - Following the store.
+2024-04-25 15:11:56,829 [main] INFO  Pages.StoresPage - Unfollowing the store.
+2024-04-25 15:12:02,092 [main] INFO  Pages.StoresPage - Clicking on the medal icon.
+2024-04-25 15:12:03,030 [main] INFO  Pages.StoresPage - Clicked on the medal icon successfully.
+2024-04-25 15:12:03,030 [main] INFO  Pages.StoresPage - Clicking on the 'Got It' button.
+2024-04-25 15:12:03,709 [main] INFO  Pages.StoresPage - Clicked on the 'Got It' button successfully.
+2024-04-25 15:12:03,709 [main] INFO  Pages.StoresPage - Navigating back.
+2024-04-25 15:12:08,607 [main] INFO  Pages.StoresPage - Navigated back successfully.
+2024-04-25 15:12:08,608 [main] INFO  Pages.StoresPage - Clicking on the homepage button.
+2024-04-25 15:12:13,460 [main] INFO  Pages.StoresPage - Clicked on the homepage button successfully.
+2024-04-25 15:12:16,461 [main] INFO  Tests.AllTest - Store test completed.
+2024-04-25 15:12:16,477 [main] INFO  Tests.LogOutTest - Starting logout test...
+2024-04-25 15:12:16,642 [main] INFO  Pages.LogOutPage - Clicked on Home button.
+2024-04-25 15:12:17,498 [main] INFO  Pages.LogOutPage - Clicked on Sign Up icon.
+2024-04-25 15:12:19,471 [main] INFO  Pages.LogOutPage - Clicked on Logout button.
+2024-04-25 15:12:22,472 [main] INFO  Tests.LogOutTest - Logout test completed.
+2024-04-25 15:12:22,522 [main] INFO  Tests.BaseClass - Stopping Appium service...
+2024-04-25 15:12:23,860 [main] INFO  Tests.BaseClass - AndroidDriver closed.
+2024-04-25 15:12:27,323 [main] INFO  Tests.BaseClass - Appium service stopped.
+
+2024-04-25 16:18:14,033 [main] INFO  Tests.BaseClass - Configuring Appium...
+2024-04-25 16:18:14,062 [main] INFO  Tests.BaseClass - Setting up Appium server...
+2024-04-25 16:18:15,782 [main] INFO  Tests.BaseClass - Creating capabilities...
+2024-04-25 16:18:15,818 [main] INFO  Tests.BaseClass - Creating AndroidDriver...
+2024-04-25 16:18:29,145 [main] INFO  Tests.BaseClass - Appium configuration complete.
+2024-04-25 16:18:29,231 [main] INFO  Tests.signUpLoginTest - Starting sign up test...
+2024-04-25 16:18:31,009 [main] INFO  Pages.SignupLoginPage - Clicked on Skip button.
+2024-04-25 16:18:37,018 [main] INFO  Pages.SignupLoginPage - Clicked on Home button.
+2024-04-25 16:18:37,813 [main] INFO  Pages.SignupLoginPage - Clicked on Sign Up icon.
+2024-04-25 16:18:41,932 [main] INFO  Pages.SignupLoginPage - Clicked on Login/Register button.
+2024-04-25 16:18:42,988 [main] INFO  Pages.SignupLoginPage - Clicked on Privacy checkbox.
+2024-04-25 16:18:44,647 [main] INFO  Pages.SignupLoginPage - Clicked on Connect with Google button.
+2024-04-25 16:18:55,677 [main] INFO  Pages.SignupLoginPage - Clicked on Choose Email button.
+2024-04-25 16:18:58,678 [main] INFO  Tests.signUpLoginTest - Sign up test completed.
+2024-04-25 16:18:58,719 [main] INFO  Tests.createStoreTest - Starting create/Edit store test...
+2024-04-25 16:19:08,244 [main] INFO  Pages.LogOutPage - Clicked on Edit
+2024-04-25 16:19:10,078 [main] INFO  Pages.LogOutPage - Clear discription
+2024-04-25 16:19:11,519 [main] INFO  Pages.LogOutPage - write the sore discription
+2024-04-25 16:19:15,352 [main] INFO  Pages.LogOutPage - clicked on store theme color
+2024-04-25 16:19:16,169 [main] INFO  Pages.LogOutPage - clicked on save button
+2024-04-25 16:19:16,170 [main] INFO  Tests.createStoreTest - create/Edit store test completed.
+2024-04-25 16:19:16,179 [main] INFO  Tests.EditProfileTest - Starting Edit profile test...
+2024-04-25 16:19:21,676 [main] INFO  Pages.EditProfilePage - Clicked on back arrow button.
+2024-04-25 16:19:24,738 [main] INFO  Pages.EditProfilePage - Enter Nick Name
+2024-04-25 16:19:25,428 [main] INFO  Pages.EditProfilePage - Clicked on save profile button
+2024-04-25 16:19:25,428 [main] INFO  Tests.EditProfileTest - Edit Profile test completed.
+2024-04-25 16:19:25,439 [main] INFO  Tests.exploreAndCommnetTest - Starting exploreAndcomment test...
+2024-04-25 16:19:32,613 [main] INFO  Pages.LogOutPage - Clicked on back arrow button.
+2024-04-25 16:23:56,778 [main] INFO  Tests.BaseClass - Configuring Appium...
+2024-04-25 16:23:56,804 [main] INFO  Tests.BaseClass - Setting up Appium server...
+2024-04-25 16:23:58,486 [main] INFO  Tests.BaseClass - Creating capabilities...
+2024-04-25 16:23:58,512 [main] INFO  Tests.BaseClass - Creating AndroidDriver...
+2024-04-25 16:24:11,124 [main] INFO  Tests.BaseClass - Appium configuration complete.
+2024-04-25 16:24:11,189 [main] INFO  Tests.signUpLoginTest - Starting sign up test...
+2024-04-25 16:24:12,669 [main] INFO  Pages.SignupLoginPage - Clicked on Skip button.
+2024-04-25 16:24:18,532 [main] INFO  Pages.SignupLoginPage - Clicked on Home button.
+2024-04-25 16:24:19,316 [main] INFO  Pages.SignupLoginPage - Clicked on Sign Up icon.
+2024-04-25 16:24:31,121 [main] INFO  Pages.SignupLoginPage - Clicked on Login/Register button.
+2024-04-25 16:24:32,204 [main] INFO  Pages.SignupLoginPage - Clicked on Privacy checkbox.
+2024-04-25 16:24:33,785 [main] INFO  Pages.SignupLoginPage - Clicked on Connect with Google button.
+2024-04-25 16:24:40,079 [main] INFO  Pages.SignupLoginPage - Clicked on Choose Email button.
+2024-04-25 16:24:43,079 [main] INFO  Tests.signUpLoginTest - Sign up test completed.
+2024-04-25 16:24:43,089 [main] INFO  Tests.createStoreTest - Starting create/Edit store test...
+2024-04-25 16:24:53,489 [main] INFO  Pages.LogOutPage - Clicked on Edit
+2024-04-25 16:24:55,749 [main] INFO  Pages.LogOutPage - Clear discription
+2024-04-25 16:24:57,075 [main] INFO  Pages.LogOutPage - write the sore discription
+2024-04-25 16:25:00,946 [main] INFO  Pages.LogOutPage - clicked on store theme color
+2024-04-25 16:25:01,846 [main] INFO  Pages.LogOutPage - clicked on save button
+2024-04-25 16:25:01,846 [main] INFO  Tests.createStoreTest - create/Edit store test completed.
+2024-04-25 16:25:01,863 [main] INFO  Tests.EditProfileTest - Starting Edit profile test...
+2024-04-25 16:25:07,807 [main] INFO  Pages.EditProfilePage - Clicked on back arrow button.
+2024-04-25 16:25:10,666 [main] INFO  Pages.EditProfilePage - Enter Nick Name
+2024-04-25 16:25:12,078 [main] INFO  Pages.EditProfilePage - Clicked on save profile button
+2024-04-25 16:25:12,078 [main] INFO  Tests.EditProfileTest - Edit Profile test completed.
+2024-04-25 16:25:12,090 [main] INFO  Tests.exploreAndCommnetTest - Starting exploreAndcomment test...
+2024-04-25 16:25:12,096 [main] INFO  Pages.LogOutPage - Clicked on back arrow button.
+2024-04-25 16:25:17,805 [main] INFO  Pages.LogOutPage - Clicked on back arrow button successfully
+2024-04-25 16:25:17,805 [main] INFO  Pages.LogOutPage - Clicking on the store option.
+2024-04-25 16:25:17,979 [main] INFO  Pages.LogOutPage - Clicked on the store option successfully.
+2024-04-25 16:25:17,979 [main] INFO  Pages.LogOutPage - Clicked on Following ..
+2024-04-25 16:25:22,100 [main] INFO  Pages.LogOutPage - Clicked on Following sucessfully..
+2024-04-25 16:25:24,488 [main] INFO  Pages.LogOutPage - Clicked on back arrow button successfully.
+2024-04-25 16:25:26,823 [main] INFO  Pages.LogOutPage - Clicked on explore option sucessfully.
+2024-04-25 16:25:33,045 [main] INFO  Pages.LogOutPage - Clicked on More option.
+2024-04-25 16:25:33,252 [main] INFO  Pages.LogOutPage - Clicked on Add comment.
+2024-04-25 16:25:35,310 [main] INFO  Pages.LogOutPage - write comment..
+2024-04-25 16:25:36,563 [main] INFO  Pages.LogOutPage - clicking comment button..
+2024-04-25 16:25:38,001 [main] INFO  Pages.LogOutPage - Print the comment msg successfully !
+2024-04-25 16:25:41,284 [main] INFO  Pages.LogOutPage - Clicked on back arrow button.
+2024-04-25 16:25:41,284 [main] INFO  Tests.exploreAndCommnetTest - Explore And Comment store test completed.
+2024-04-25 16:25:41,310 [main] INFO  Tests.AllTest - Starting search test...
+2024-04-25 16:25:44,579 [main] INFO  Pages.searchPage - Clicked on back arrow button.
+2024-04-25 16:25:44,806 [main] INFO  Pages.searchPage - Clicked on search option.
+2024-04-25 16:25:53,639 [main] INFO  Pages.searchPage - Searched for 'selenium' and clicked on the result.
+2024-04-25 16:26:16,684 [main] INFO  Pages.searchPage - Clicked on Install button and granted permissions for the app installation.
+2024-04-25 16:26:28,729 [main] INFO  Pages.searchPage - Open button is present. Skipping opening the app.
+2024-04-25 16:26:34,729 [main] INFO  Tests.AllTest - Search test completed.
+2024-04-25 16:26:34,736 [main] INFO  Tests.AllTest - Starting store test...
+2024-04-25 16:26:34,745 [main] INFO  Pages.StoresPage - Clicking on the store option.
+2024-04-25 16:26:34,945 [main] INFO  Pages.StoresPage - Clicked on the store option successfully.
+2024-04-25 16:26:34,946 [main] INFO  Pages.StoresPage - Click on the view more store option.
+2024-04-25 16:26:41,895 [main] INFO  Pages.StoresPage - Click on the view more store option sucessfully.
+2024-04-25 16:26:41,895 [main] INFO  Pages.StoresPage - Select 2nd no. store.
+2024-04-25 16:26:42,771 [main] INFO  Pages.StoresPage - 2nd no selected successfully.
+2024-04-25 16:26:42,771 [main] INFO  Pages.StoresPage - Following the store.
+2024-04-25 16:26:50,968 [main] INFO  Pages.StoresPage - Unfollowing the store.
+2024-04-25 16:26:56,702 [main] INFO  Pages.StoresPage - Clicking on the medal icon.
+2024-04-25 16:26:56,883 [main] INFO  Pages.StoresPage - Clicked on the medal icon successfully.
+2024-04-25 16:26:56,883 [main] INFO  Pages.StoresPage - Clicking on the 'Got It' button.
+2024-04-25 16:26:57,816 [main] INFO  Pages.StoresPage - Clicked on the 'Got It' button successfully.
+2024-04-25 16:26:57,816 [main] INFO  Pages.StoresPage - Navigating back.
+2024-04-25 16:27:05,299 [main] INFO  Pages.StoresPage - Navigated back successfully.
+2024-04-25 16:27:05,300 [main] INFO  Pages.StoresPage - Clicking on the homepage button.
+2024-04-25 16:27:08,510 [main] INFO  Pages.StoresPage - Clicked on the homepage button successfully.
+2024-04-25 16:27:11,511 [main] INFO  Tests.AllTest - Store test completed.
+2024-04-25 16:27:11,529 [main] INFO  Tests.LogOutTest - Starting logout test...
+2024-04-25 16:27:11,780 [main] INFO  Pages.LogOutPage - Clicked on Home button.
+2024-04-25 16:27:12,585 [main] INFO  Pages.LogOutPage - Clicked on Sign Up icon.
+2024-04-25 16:27:14,656 [main] INFO  Pages.LogOutPage - Clicked on Logout button.
+2024-04-25 16:27:17,657 [main] INFO  Tests.LogOutTest - Logout test completed.
+2024-04-25 16:27:17,767 [main] INFO  Tests.BaseClass - Stopping Appium service...
+2024-04-25 16:27:19,057 [main] INFO  Tests.BaseClass - AndroidDriver closed.
+2024-04-25 16:27:23,185 [main] INFO  Tests.BaseClass - Appium service stopped.
+
+
+
+
+2024-05-09 16:42:16,510 [main] INFO  Tests.BaseClass - Configuring Appium...
+2024-05-09 16:42:16,632 [main] INFO  Tests.BaseClass - Setting up Appium server...
+2024-05-09 16:42:24,820 [main] INFO  Tests.BaseClass - Creating capabilities...
+2024-05-09 16:42:24,855 [main] INFO  Tests.BaseClass - Creating AndroidDriver...
+2024-05-09 16:42:42,456 [main] INFO  Tests.BaseClass - Appium configuration complete.
+2024-05-09 16:42:42,531 [main] INFO  Tests.signUpLoginTest - Starting sign up test...
+2024-05-09 16:42:44,176 [main] INFO  Pages.SignupLoginPage - Clicked on Skip button.
+2024-05-09 16:42:51,346 [main] INFO  Pages.SignupLoginPage - Clicked on Home button.
+2024-05-09 16:42:52,304 [main] INFO  Pages.SignupLoginPage - Clicked on Sign Up icon.
+2024-05-09 16:42:53,450 [main] INFO  Pages.SignupLoginPage - Clicked on Login/Register button.
+2024-05-09 16:42:54,499 [main] INFO  Pages.SignupLoginPage - Clicked on Privacy checkbox.
+2024-05-09 16:42:56,240 [main] INFO  Pages.SignupLoginPage - Clicked on Connect with Google button.
+2024-05-09 16:43:08,259 [main] INFO  Pages.SignupLoginPage - Clicked on Choose Email button.
+2024-05-09 16:43:11,259 [main] INFO  Tests.signUpLoginTest - Sign up test completed.
+2024-05-09 16:43:11,286 [main] INFO  Tests.createStoreTest - Starting create/Edit store test...
+2024-05-09 16:43:24,806 [main] INFO  Pages.LogOutPage - Clicked on Edit
+2024-05-09 16:43:28,027 [main] INFO  Pages.LogOutPage - Clear discription
+2024-05-09 16:43:29,227 [main] INFO  Pages.LogOutPage - write the sore discription
+2024-05-09 16:43:33,113 [main] INFO  Pages.LogOutPage - clicked on store theme color
+2024-05-09 16:43:33,930 [main] INFO  Pages.LogOutPage - clicked on save button
+2024-05-09 16:43:33,930 [main] INFO  Tests.createStoreTest - create/Edit store test completed.
+2024-05-09 16:43:33,947 [main] INFO  Tests.EditProfileTest - Starting Edit profile test...
+2024-05-09 16:43:42,222 [main] INFO  Pages.EditProfilePage - Clicked on back arrow button.
+2024-05-09 16:43:45,003 [main] INFO  Pages.EditProfilePage - Enter Nick Name
+2024-05-09 16:43:45,691 [main] INFO  Pages.EditProfilePage - Clicked on save profile button
+2024-05-09 16:43:45,691 [main] INFO  Tests.EditProfileTest - Edit Profile test completed.
+2024-05-09 16:43:45,706 [main] INFO  Tests.exploreAndCommnetTest - Starting exploreAndcomment test...
+2024-05-09 16:43:45,719 [main] INFO  Pages.LogOutPage - Clicked on back arrow button.
+2024-05-09 16:43:52,590 [main] INFO  Pages.LogOutPage - Clicked on back arrow button successfully
+2024-05-09 16:43:52,590 [main] INFO  Pages.LogOutPage - Clicking on the store option.
+2024-05-09 16:43:55,479 [main] INFO  Pages.LogOutPage - Clicked on the store option successfully.
+2024-05-09 16:43:55,479 [main] INFO  Pages.LogOutPage - Clicked on Following ..
+2024-05-09 16:43:59,618 [main] INFO  Pages.LogOutPage - Clicked on Following sucessfully..
+2024-05-09 16:44:02,617 [main] INFO  Pages.LogOutPage - Clicked on back arrow button successfully.
+2024-05-09 16:44:04,212 [main] INFO  Pages.LogOutPage - Clicked on explore option sucessfully.
+2024-05-09 16:44:10,753 [main] INFO  Pages.LogOutPage - Clicked on More option.
+2024-05-09 16:44:10,968 [main] INFO  Pages.LogOutPage - Clicked on Add comment.
+2024-05-09 16:44:12,575 [main] INFO  Pages.LogOutPage - write comment..
+2024-05-09 16:44:13,242 [main] INFO  Pages.LogOutPage - clicking comment button..
+2024-05-09 16:44:15,337 [main] INFO  Pages.LogOutPage - Print the comment msg successfully !
+2024-05-09 16:44:20,763 [main] INFO  Pages.LogOutPage - Clicked on back arrow button.
+2024-05-09 16:44:20,764 [main] INFO  Tests.exploreAndCommnetTest - Explore And Comment store test completed.
+2024-05-09 16:44:20,796 [main] INFO  Tests.AllTest - Starting search test...
+2024-05-09 16:44:21,150 [main] INFO  Pages.searchPage - Clicked on back arrow button.
+2024-05-09 16:44:23,521 [main] INFO  Pages.searchPage - Clicked on search option.
+2024-05-09 16:44:33,777 [main] INFO  Pages.searchPage - Searched for 'selenium' and clicked on the result.
+2024-05-09 16:45:08,672 [main] INFO  Pages.searchPage - Clicked on Install button and granted permissions for the app installation.
+2024-05-09 16:45:27,319 [main] INFO  Pages.searchPage - Open button is present. Skipping opening the app.
+2024-05-09 16:45:33,320 [main] INFO  Tests.AllTest - Search test completed.
+2024-05-09 16:45:33,345 [main] INFO  Tests.AllTest - Starting store test...
+2024-05-09 16:45:33,381 [main] INFO  Pages.StoresPage - Clicking on the store option.
+2024-05-09 16:45:33,591 [main] INFO  Pages.StoresPage - Clicked on the store option successfully.
+2024-05-09 16:45:33,592 [main] INFO  Pages.StoresPage - Click on the view more store option.
+2024-05-09 16:45:40,551 [main] INFO  Pages.StoresPage - Click on the view more store option sucessfully.
+2024-05-09 16:45:40,551 [main] INFO  Pages.StoresPage - Select 2nd no. store.
+2024-05-09 16:45:42,668 [main] INFO  Pages.StoresPage - 2nd no selected successfully.
+2024-05-09 16:45:42,668 [main] INFO  Pages.StoresPage - Following the store.
+2024-05-09 16:45:55,360 [main] INFO  Pages.StoresPage - Unfollowing the store.
+2024-05-09 16:45:58,571 [main] INFO  Pages.StoresPage - Clicking on the medal icon.
+2024-05-09 16:45:58,728 [main] INFO  Pages.StoresPage - Clicked on the medal icon successfully.
+2024-05-09 16:45:58,728 [main] INFO  Pages.StoresPage - Clicking on the 'Got It' button.
+2024-05-09 16:45:59,584 [main] INFO  Pages.StoresPage - Clicked on the 'Got It' button successfully.
+2024-05-09 16:45:59,584 [main] INFO  Pages.StoresPage - Navigating back.
+2024-05-09 16:46:06,102 [main] INFO  Pages.StoresPage - Navigated back successfully.
+2024-05-09 16:46:06,102 [main] INFO  Pages.StoresPage - Clicking on the homepage button.
+2024-05-09 16:46:11,639 [main] INFO  Pages.StoresPage - Clicked on the homepage button successfully.
+2024-05-09 16:46:14,640 [main] INFO  Tests.AllTest - Store test completed.
+2024-05-09 16:46:14,659 [main] INFO  Tests.LogOutTest - Starting logout test...
+2024-05-09 16:46:14,838 [main] INFO  Pages.LogOutPage - Clicked on Home button.
+2024-05-09 16:46:15,553 [main] INFO  Pages.LogOutPage - Clicked on Sign Up icon.
+2024-05-09 16:46:16,636 [main] INFO  Pages.LogOutPage - Clicked on Logout button.
+2024-05-09 16:46:19,637 [main] INFO  Tests.LogOutTest - Logout test completed.
+2024-05-09 16:46:19,714 [main] INFO  Tests.BaseClass - Stopping Appium service...
+2024-05-09 16:46:21,282 [main] INFO  Tests.BaseClass - AndroidDriver closed.
+2024-05-09 16:46:25,570 [main] INFO  Tests.BaseClass - Appium service stopped.

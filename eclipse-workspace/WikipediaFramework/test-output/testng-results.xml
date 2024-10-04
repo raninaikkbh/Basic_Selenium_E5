@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-11T15:30:57 IST" name="Default suite" finished-at="2024-04-11T15:31:50 IST" duration-ms="52881">
+    <groups>
+    </groups>
+    <test started-at="2024-04-11T15:30:57 IST" name="Default test" finished-at="2024-04-11T15:31:50 IST" duration-ms="52881">
+      <class name="Tests.AllTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Tests.AllTest@2b40ff9c]" started-at="2024-04-11T15:30:57 IST" name="configureAppium" finished-at="2024-04-11T15:31:12 IST" duration-ms="14256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="login()[pri:1, instance:Tests.AllTest@2b40ff9c]" started-at="2024-04-11T15:31:12 IST" name="login" finished-at="2024-04-11T15:31:30 IST" duration-ms="18105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="log()[pri:2, instance:Tests.AllTest@2b40ff9c]" started-at="2024-04-11T15:31:30 IST" name="log" finished-at="2024-04-11T15:31:43 IST" duration-ms="13628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="stopAppiumService()[pri:0, instance:Tests.AllTest@2b40ff9c]" started-at="2024-04-11T15:31:43 IST" name="stopAppiumService" finished-at="2024-04-11T15:31:50 IST" duration-ms="6797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumService -->
+      </class> <!-- Tests.AllTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

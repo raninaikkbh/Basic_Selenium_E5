@@ -1,0 +1,97 @@
+package Pages;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class StoresPage {
+	
+    private static final Logger logger = LogManager.getLogger(StoresPage.class);
+
+
+	AndroidDriver driver;
+
+	public StoresPage(AndroidDriver d) {
+		driver = d;
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
+	WebElement back;
+
+	@FindBy(id = "cm.aptoide.pt:id/action_stores")
+	WebElement store;
+	
+	@FindBy(id="cm.aptoide.pt:id/more")
+	WebElement ClickMore;
+
+	@FindBy(xpath = "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"cm.aptoide.pt:id/recycler_view\"]/android.widget.FrameLayout[7]/android.widget.RelativeLayout")
+	WebElement samsungProd;
+
+	@FindBy(id = "cm.aptoide.pt:id/follow_store_button")
+	WebElement follow;
+
+	@FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
+	WebElement NavigateUp;
+	
+	@FindBy(id="cm.aptoide.pt:id/medal_icon")
+	WebElement medalIcon;
+	
+	@FindBy(id="cm.aptoide.pt:id/ok_button")
+	WebElement GotIt;
+	
+	@FindBy(xpath="//android.widget.TextView[@resource-id=\"cm.aptoide.pt:id/psts_tab_title\" and @text=\"APPLICATIONS\"]")
+	WebElement Application;
+
+	@FindBy(xpath="(//android.widget.Button[@resource-id=\"cm.aptoide.pt:id/more\"])[1]")
+	WebElement moreOption;
+	
+	@FindBy(id="cm.aptoide.pt:id/action_home")
+	WebElement Homepage;
+	
+	public void storeOption() throws InterruptedException {
+		
+		logger.info("Clicking on the store option.");
+        store.click();
+        logger.info("Clicked on the store option successfully.");
+
+        logger.info("Selecting a product from 1st no..");
+        samsungProd.click();
+        logger.info("Product from  1st no selected successfully.");
+
+        logger.info("Following the store.");
+        follow.click();
+        Thread.sleep(3000);
+        
+        
+
+        logger.info("Unfollowing the store.");
+        follow.click();      //unfollow
+        Thread.sleep(3000);
+
+        logger.info("Clicking on the medal icon.");
+        medalIcon.click();
+        logger.info("Clicked on the medal icon successfully.");
+
+        logger.info("Clicking on the 'Got It' button.");
+        GotIt.click();
+        logger.info("Clicked on the 'Got It' button successfully.");
+
+        logger.info("Navigating back.");
+        NavigateUp.click();
+        Thread.sleep(3000);
+        logger.info("Navigated back successfully.");
+
+        logger.info("Clicking on the homepage button.");
+        Homepage.click();
+        Thread.sleep(3000);
+        logger.info("Clicked on the homepage button successfully.");
+
+	}
+
+}

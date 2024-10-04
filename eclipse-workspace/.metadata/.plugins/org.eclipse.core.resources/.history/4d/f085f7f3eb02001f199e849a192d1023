@@ -1,0 +1,39 @@
+package Pages;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class exploreStoreAndComment {
+	
+	private static final Logger logger = LogManager.getLogger(LogOutPage.class);
+
+	AndroidDriver driver;
+
+	public exploreStoreAndComment(AndroidDriver d) {
+		driver = d;
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
+	WebElement back;
+	
+	@FindBy(id="cm.aptoide.pt:id/explore_button")
+	WebElement exploreOption;
+
+	public void backArrow() {
+		back.click();
+		logger.info("Clicked on back arrow button.");
+	}
+	
+	public void exploreStore()
+	{
+		exploreOption.click();
+	}
+
+
+}

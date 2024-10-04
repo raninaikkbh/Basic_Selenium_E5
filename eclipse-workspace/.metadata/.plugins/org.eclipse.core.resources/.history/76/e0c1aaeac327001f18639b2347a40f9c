@@ -1,0 +1,23 @@
+package Utilities;
+
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("Enter your Company Name : ");
+//		
+//		String companyName = sc.nextLine();
+//		
+//		System.out.println("Company Name is : "+companyName);
+		
+		
+		System.out.println("Enter 1st value");
+		 int a = sc.nextInt();
+	}
+
+}

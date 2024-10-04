@@ -1,0 +1,20 @@
+package TestRunner;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = {".//Features/LoginFeature.feature"},
+		glue = "StepDefinition",
+		dryRun = false,
+		monochrome = true,
+		plugin = {"pretty"}
+		)
+
+
+public class Run extends AbstractTestNGCucumberTests{
+	
+	/* This class will be empty */
+
+	
+	
+}

@@ -1,0 +1,72 @@
+package Pages;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class exploreStoreAndComment {
+	
+	private static final Logger logger = LogManager.getLogger(LogOutPage.class);
+
+	AndroidDriver driver;
+
+	public exploreStoreAndComment(AndroidDriver d) {
+		driver = d;
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Navigate up\"]")
+	WebElement back;
+	
+	@FindBy(id="cm.aptoide.pt:id/explore_button")
+	WebElement exploreOption;
+	
+	@FindBy(id="cm.aptoide.pt:id/more")
+	WebElement more;
+	
+	@FindBy(id="cm.aptoide.pt:id/fabAdd")
+	WebElement addcomment;
+	
+	@FindBy(id="cm.aptoide.pt:id/input_text")
+	WebElement commnetTextBox;
+	
+	@FindBy(id="cm.aptoide.pt:id/comment_button")
+	WebElement clickCommentBtn;
+	
+	@FindBy(id="cm.aptoide.pt:id/snackbar_text")
+	WebElement 
+
+	public void backArrow() {
+		back.click();
+		logger.info("Clicked on back arrow button.");
+	}
+	
+	public void exploreStore()
+	{
+		exploreOption.click();
+		logger.info("Clicked on explore option.");
+		
+		
+		more.click();
+		logger.info("Clicked on More option.");
+		
+		addcomment.click();
+		logger.info("Clicked on Add comment.");
+
+		commnetTextBox.sendKeys("Hello..Aptoide !!");
+		logger.info("write comment..");
+		
+		clickCommentBtn.click();
+		logger.info("clicking comment button..");
+
+		String TotalTextMsg = totaltxtMsg.getText();
+		System.out.println("Comment Msg : " + TotalTextMsg);	
+		
+	}
+
+
+}

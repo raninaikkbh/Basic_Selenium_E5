@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Tests.signUpTest"/>
+     <!--  <class name="Tests.LoginTest"/>   -->
+   <!--   <class name="Tests.searchTest"/>       -->
+         <class name="Tests.AllTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

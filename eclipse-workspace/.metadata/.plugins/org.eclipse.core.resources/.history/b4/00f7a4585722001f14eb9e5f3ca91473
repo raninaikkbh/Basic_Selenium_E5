@@ -1,0 +1,25 @@
+package TestRunner;
+
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+import io.cucumber.junit.Cucumber; // Import the correct Cucumber class for JUnit
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = {".//Features/LoginFeature.feature"},
+		glue = "StepDefinition",
+		dryRun = true,
+		monochrome = true,
+		plugin = {"pretty"}
+		)
+
+
+public class Run extends AbstractTestNGCucumberTests{
+	
+	/* This class will be empty */
+
+	
+	
+}

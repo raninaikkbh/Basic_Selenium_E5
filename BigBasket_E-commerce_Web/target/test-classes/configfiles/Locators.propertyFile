@@ -1,0 +1,7 @@
+sign_in = //*[text()='Login/ Sign Up']
+mob_no = //*[@placeholder='Enter Phone number/ Email Id']
+contiune_btn = //*[text()='Continue']
+cancel_btn = (//*[local-name()='svg'])[38]
+select_loc_btn = (//*[text()='Select Location'])[2]
+pin_code_txtBox =  (//*[@placeholder='Search for area or street name'])[2]
+Loc_Listbox = //*[text()='Pune, Maharashtra, India']
